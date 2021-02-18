@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\n\nBaked Shrimp Scampi"
+                        android:textAlignment="center"
+                        android:textColor="#FFF6AA63"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\n\nCalories: 2565, Carbs: 76, Fat: 159, Fiber: 4, Protein: 200, \nSugar: 6, Saturated Fats: 67\nCooktime: 15\nPreptime: 5\n\n
+                Servings:6
+                \n\nIngredients:\n2/3 cup panko\n1/4 teaspoon red pepper flakes\n1/2 lemon, zested and juiced\n1 extra-large egg yolk\n1 teaspoon rosemary, minced\n3 tablespoon parsley, minced\n4 clove garlic, minced\n1/4 cup shallots, minced\n8 tablespoon unsalted butter, at room temperature\n2 tablespoon dry white wine\nFreshly ground black pepper\nKosher salt\n3 tablespoon olive oil\n\n\nInstructions:\n Preheat the oven to 425 degrees F. Defrost shrimp by putting in cold water, drain. Place the shrimp in serving dish (9x13 or 2 quart casserole) and toss gently with the olive oil, wine, 1 teaspoons salt, and 1 teaspoon pepper. Allow to sit at room temperature while you make the butter and garlic mixture.In a small bowl, mash the softened butter with the garlic, shallots, parsley, rosemary, red pepper flakes, lemon zest, lemon juice, egg yolk, panko, 1/2 teaspoon salt, and 1/4 teaspoon of pepper until combined. Spread the butter mixture evenly over the shrimp. Bake for 10 to 12 minutes until hot and bubbly. If you like the top browned, place under a broiler for 1-3 minutes (keep an eye on it). Serve with lemon wedges and French bread. Note: if using fresh shrimp, arrange for presentation. Starting from the outer edge of a 14-inch oval gratin dish, arrange the shrimp in a single layer cut side down with the tails curling up and towards the center of the dish. Pour the remaining marinade over the shrimp.\n\n\nFrom: Ina Garten: Barefoot Contessa Back to Basics\n\n\n\nseafood, shrimp, main, beginner, quick
+        "
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
